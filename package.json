@@ -1,0 +1,21 @@
+{
+  "name": "@mcsoud/templates",
+  "author": {
+    "name": "mcsoud",
+    "email": "firas.maksoud@hotmail.com"
+  },
+  "version": "1.1.1",
+  "license": "MIT",
+  "private": false,
+  "description": "A CLI tool to clone the GitHub template repositories.",
+  "main": "bin/index.js",
+  "type": "module",
+  "bin": {
+    "templates": "bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "inquirer": "^12.5.0",
+    "simple-git": "^3.14.1"
+  }
+}
