@@ -28,13 +28,13 @@ const questions = [
     name: "template",
     message: "Select a template:",
     type: "list",
-    choices: ["vite-react", "vite-svelte", "nextjs"],
+    choices: ["vite-react", "vite-svelte", "nextjs", "svelte-kit"],
   },
 ];
 
 inquirer.prompt(questions).then(async (answers) => {
   switch (answers.template) {
-    case "nextjs":
+    case "svelte-kit":
       console.log("Option not implemented yet");
       break;
     default:
